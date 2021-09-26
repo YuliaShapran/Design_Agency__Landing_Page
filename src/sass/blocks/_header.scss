@@ -1,0 +1,12 @@
+.header {
+	position: relative;
+	&__bg {
+		background: url(../../img/bg__header.png) center center / cover no-repeat;
+		width: 100%;
+		height: 1491px;
+		z-index: -1;
+	}
+
+}
+
+
