@@ -1,0 +1,39 @@
+.brands {
+	min-height: 870px;
+	background-color: #f2f2f2;
+
+	&__subhead {
+		color: #00a077;
+		padding-top: 194px;
+		text-align: center;
+		margin-bottom: 24px;
+	}
+
+	&__title {
+		color: #3B3E43;
+		text-align: center;
+		margin: 0 auto;
+		width: 85%;
+	}
+
+	&__wrapper {
+		margin-top: 32px;
+		margin-bottom: 40px;
+		display: grid;
+		grid-template-columns: repeat(5, 144px);
+		column-gap: 112px;
+		grid-template-rows: repeat(2, auto);
+		row-gap: 24px;
+		align-items: center
+	}
+
+	&__descr {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 148%;
+		text-align: center;
+		color: #424a4d;
+		width: 35%;
+		margin: 0 auto;
+	}
+}

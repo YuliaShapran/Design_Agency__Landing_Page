@@ -1,6 +1,9 @@
+@import "base/mixins";
 @import "blocks/header";
 @import "blocks/benefits";
 @import "blocks/process";
+@import "blocks/brands";
+
 
 * {
 	box-sizing: border-box;
