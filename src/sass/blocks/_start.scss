@@ -1,0 +1,19 @@
+.start {
+	position: relative;
+	min-height: 817px;
+	background: url(../../img/bg__start_working.png) center center / cover no-repeat;
+
+	&__left-block {
+		width: 50%;
+	}
+
+	&__right-block {
+		
+		
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+	}
+}

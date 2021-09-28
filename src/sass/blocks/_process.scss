@@ -2,6 +2,8 @@
 	min-height: 1639px;
 	background: url(../../img/bg__process.jpg) center center / cover no-repeat;
 
+	
+
 	&__subhead {
 		padding-top: 194px;
 		text-align: center;
@@ -25,10 +27,20 @@
 	}
 
 	.wrapper {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		gap: 40px;
 		align-items: center;
+		z-index: 1;
+
+		&-line {
+			position:absolute;
+			height: 708px;
+			border: 2px dashed #FFFFFF;
+			top: 20%;
+			z-index: -1;
+		}
 	}
 
 	&__item {
