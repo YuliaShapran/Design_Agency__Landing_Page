@@ -1,5 +1,9 @@
 .benefits {
+
 	min-height: 1063px;
+	background: #f2f2f2;
+	
+
 
 	&__wrapper {
 		display: grid;
@@ -7,6 +11,8 @@
 		grid-auto-rows: auto;
 		column-gap: 30px;
 		row-gap: 25px;
+
+		
 	}
 
 	&__title {
@@ -28,6 +34,7 @@
 		padding-top: 50px;
 		padding-left: 40px;
 		padding-bottom: 50px;
+		background: #ffff;
 
 		@include base_icon;
 

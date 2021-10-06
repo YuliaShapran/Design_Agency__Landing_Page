@@ -21,38 +21,39 @@ body {
 	margin: 0 auto;
 }
 
-.btn {
-	width: 194px;
-	height: 61px;
-	background: #ffffff;
-	border-radius: 60px;
-	// padding: 20px 50px;
+.btn a {
+		width: 194px;
+		height: 61px;
+		background: #ffffff;
+		border-radius: 60px;
+		padding: 20px 50px;
 
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 148%;
-	text-align: center;
-	letter-spacing: 0.02em;
-	text-transform: uppercase;
-	color: #57b3fe;
-	border: none;
-	cursor: pointer;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 148%;
+		text-align: center;
+		letter-spacing: 0.02em;
+		text-transform: uppercase;
+		color: #57b3fe;
+		border: none;
+		cursor: pointer;
+		text-decoration: none;
+	
 }
 
 .subhead {
-font-weight: 600;
-font-size: 12px;
-line-height: 122%;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-opacity: 0.5;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 122%;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	opacity: 0.5;
 }
 
 .title {
 	font-weight: 500;
 	font-size: 48px;
 	line-height: 122%;
-	
 }
 
 .subtitle {
@@ -66,5 +67,5 @@ opacity: 0.5;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 24px;
-	color: #595E64;
+	color: #595e64;
 }

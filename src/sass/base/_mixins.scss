@@ -5,6 +5,40 @@
 		height: 50px;
 		box-shadow: 0px 10px 20px rgba(197, 158, 145, 0.1);
 		border-radius: 15px;
-		
+	}
+}
+
+@mixin hover {
+
+	@keyframes hover-horizontal {
+	16% {
+		transform: translateX(8px);
+	}
+
+	33% {
+		transform: translateX(-6px);
+	}
+
+	49% {
+		transform: translateX(4px);
+	}
+
+	66% {
+		transform: translateX(-2px);
+	}
+
+	83% {
+		transform: translateX(1px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+	.btn:hover {
+		animation-name: hover-horizontal;
+		animation-duration: 1s;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: 1;
 	}
 }
