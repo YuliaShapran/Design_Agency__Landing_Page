@@ -49,7 +49,7 @@
 		column-gap: 51px;
 		padding-left: 32px;
 		padding-bottom: 20px;
-		width: 1170px;
+		width: 98%;
 		min-height: 323px;
 		border-radius: 15px;
 		-webkit-border-radius: 15px;
@@ -62,9 +62,11 @@
 
 	.left-block img {
 		width: 100%;
-		height: auto;
+		height: 100%;
 		object-fit: contain;
 	}
+
+
 
 	.right-block {
 		@include base_icon;

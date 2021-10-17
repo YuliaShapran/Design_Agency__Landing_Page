@@ -1,3 +1,4 @@
+
 @import "base/mixins";
 @import "blocks/header";
 @import "blocks/benefits";
@@ -5,16 +6,15 @@
 @import "blocks/brands";
 @import "blocks/start";
 @import "blocks/footer";
+@import "blocks/media";
 
 * {
+	font-family: "DM Sans", sans-serif;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-body {
-	font-family: "DM Sans", sans-serif;
-}
 
 .container {
 	width: 1180px;
