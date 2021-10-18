@@ -1,9 +1,9 @@
 .header {
-	height: 100vh;
-	// background: #f2f2f2 url(../../img/bg__header.png) no-repeat;
-	// background-size: 100% 70%;
+	height: 100%;
+	background: #f2f2f2 url(../../img/bg__header.png) no-repeat;
+	background-size: 100% 70%;
 
-	background-color: gray;
+	// background-color: gray;
 
 	.nav {
 		padding-top: 2%;
@@ -62,7 +62,9 @@
 		}
 	}
 
-	&__title {
+	.header-content {
+		padding-bottom: 186px;
+		&__title {
 		font-weight: 500;
 		font-size: 68px;
 		line-height: 120%;
@@ -91,11 +93,12 @@
 	&__dashboard {
 		text-align: center;
 		margin-top: 110px;
-		margin-bottom: 186px;
+	
 		img {
-			width: 100%;
+			max-width: 100%;
 			height: auto;
 			object-fit: cover;
 		}
+	}
 	}
 }
