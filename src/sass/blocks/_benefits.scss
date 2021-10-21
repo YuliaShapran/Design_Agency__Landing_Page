@@ -1,6 +1,10 @@
 .benefits {
 	height: 100%;
-	background: #f2f2f2;
+	background-color: #f2f2f2;
+	background-image: url("../../img/Group_27191.png");
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-size: contain;
 
 	&__wrapper {
 		display: grid;
