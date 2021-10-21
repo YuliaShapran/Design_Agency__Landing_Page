@@ -1,9 +1,9 @@
 .header {
 	height: 100%;
 	background: #f2f2f2 url(../../img/bg__header.png) no-repeat;
-	background-size: 100% 70%;
+	background-size: 100% 75%;
 
-	// background-color: gray;
+	
 
 	.nav {
 		padding-top: 2%;
@@ -28,7 +28,7 @@
 		}
 
 		&__menu {
-			min-width: 683px;
+			width: 683px;
 			display: flex;
 			justify-content: space-between;
 			align-items: center;

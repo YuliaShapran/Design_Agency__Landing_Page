@@ -1,12 +1,19 @@
 .start {
-	min-height: 817px;
+	height: 100%;
 	background: url(../../img/bg__start_working.png) center center / cover no-repeat;
 
 	&__blocks {
 		display: flex;
+	
+		padding-bottom: 143px;
+		width: 100%;
+		
+	
+		
 	}
 
-	&__left-block {
+	&__left-block, &__right-block {
+		display: inline-block;
 		width: 50%;
 	}
 
@@ -36,10 +43,9 @@
 	&__right-block {
 		margin-top: 155px;
 		img {
-			max-width: 624px;
 			width: 100%;
 			height: auto;
-			object-fit: contain;
+			object-fit: cover;
 		}
 	}
 }

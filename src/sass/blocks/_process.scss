@@ -1,5 +1,5 @@
 .process {
-	min-height: 1639px;
+	height: 100%;
 	background: url(../../img/bg__process.jpg) center center / cover no-repeat;
 
 	
@@ -33,10 +33,11 @@
 		gap: 40px;
 		align-items: center;
 		z-index: 1;
+		padding-bottom: 184px;
 
 		&-line {
 			position:absolute;
-			height: 708px;
+			height: 755px;
 			border: 2px dashed #FFFFFF;
 			top: 20%;
 			z-index: -1;

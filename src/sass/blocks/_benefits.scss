@@ -1,9 +1,6 @@
 .benefits {
-
-	min-height: 1063px;
+	height: 100%;
 	background: #f2f2f2;
-	
-
 
 	&__wrapper {
 		display: grid;
@@ -11,10 +8,11 @@
 		grid-auto-rows: auto;
 		column-gap: 30px;
 		row-gap: 25px;
+		padding-bottom: 184px;
 	}
 
 	&__title {
-		width: 528px;
+		width: 40%;
 		margin-bottom: 32px;
 		color: #3b3e43;
 	}
