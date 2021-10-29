@@ -62,11 +62,11 @@
 	}
 	.nav__logo:hover,
 	.footer__logo:hover {
-		animation-name: pulse;
-		animation-duration: 1s;
-		animation-timing-function: linear;
-		animation-iteration-count: infinite;
+		img {
+			animation-name: pulse;
+			animation-duration: 1s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+		}
 	}
 }
-
-
