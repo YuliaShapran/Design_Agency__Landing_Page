@@ -1,13 +1,71 @@
+
+@import "base/mixins";
+@import "blocks/header";
+@import "blocks/benefits";
+@import "blocks/process";
+@import "blocks/team";
+@import "blocks/start";
+@import "blocks/footer";
+@import "blocks/media";
+
 * {
+	font-family: "DM Sans", sans-serif;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	
-}
-
-body {
-	font-family: 'DM Sans', sans-serif;
-	
 }
 
 
+.container {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.btn a {
+		width: 194px;
+		height: 61px;
+		background: #ffffff;
+		border-radius: 60px;
+		padding: 20px 50px;
+
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 148%;
+		text-align: center;
+		letter-spacing: 0.02em;
+		text-transform: uppercase;
+		color: #57b3fe;
+		border: none;
+		cursor: pointer;
+		text-decoration: none;
+	
+}
+
+.subhead {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 122%;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	opacity: 0.5;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 122%;
+}
+
+.subtitle {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 30px;
+	color: #3b3e43;
+}
+
+.descr {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #595e64;
+}

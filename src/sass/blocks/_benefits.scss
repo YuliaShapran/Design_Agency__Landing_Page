@@ -1,0 +1,84 @@
+.benefits {
+	height: 100%;
+	background-color: #f2f2f2;
+	background-image: url("../../img/Group_27191.png");
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-size: contain;
+
+	&__wrapper {
+		display: grid;
+		grid-template-columns: repeat(3, 370px);
+		grid-auto-rows: auto;
+		column-gap: 30px;
+		row-gap: 25px;
+		padding-bottom: 184px;
+	}
+
+	&__title {
+		width: 40%;
+		margin-bottom: 32px;
+		color: #3b3e43;
+	}
+
+	&__subhead {
+		color: #00a077;
+		margin-bottom: 24px;
+	}
+
+	.item {
+		max-width: 370px;
+		min-height: 335px;
+		box-shadow: 0px 20px 50px rgba(59, 62, 67, 0.05);
+		border-radius: 15px;
+		padding-top: 50px;
+		padding-left: 40px;
+		padding-bottom: 50px;
+		background: #ffff;
+
+		@include base_icon;
+
+		&__icon {
+			padding: 11px;
+			margin-bottom: 20px;
+			img {
+				position: absolute;
+			}
+		}
+
+		&-descr {
+			max-width: 306px;
+			margin-top: 15px;
+			font-weight: 400;
+			span {
+				font-weight: 700;
+			}
+		}
+	}
+
+	#orange {
+		background: #ffe7db;
+		box-shadow: 0px 10px 20px rgba(197, 158, 145, 0.1);
+	}
+	#green {
+		background: #e7f2ef;
+		box-shadow: 0px 10px 20px rgba(6, 77, 58, 0.03);
+	}
+	#yellow {
+		background: #faf3d8;
+		box-shadow: 0px 10px 20px rgba(190, 166, 115, 0.05);
+	}
+
+	#aqua {
+		background: #c0f2ef;
+		box-shadow: 0px 10px 20px rgba(197, 158, 145, 0.1);
+	}
+	#purple {
+		background: #ede7f2;
+		box-shadow: 0px 10px 20px rgba(6, 77, 58, 0.03);
+	}
+	#blue {
+		background: #d8f0fa;
+		box-shadow: 0px 10px 20px rgba(190, 166, 115, 0.05);
+	}
+}
